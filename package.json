@@ -1,0 +1,17 @@
+{
+  "name": "scheduler-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix web && npm install --prefix functions",
+    "dev:web": "npm run dev --prefix web",
+    "dev:functions": "npm run serve --prefix functions",
+    "dev:emulators": "firebase emulators:start",
+    "dev:all": "concurrently \"npm run dev:web\" \"npm run dev:functions\"",
+    "build:web": "npm run build --prefix web",
+    "deploy": "npm run build:web && firebase deploy"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
