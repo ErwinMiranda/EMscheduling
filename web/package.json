@@ -1,0 +1,19 @@
+{
+  "name": "scheduler-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^10.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "dayjs": "^1.11.9"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
