@@ -1,1 +1,8 @@
+{
+  "projects": {
+    "default": "myapp-dev",
+    "staging": "myapp-staging",
+    "production": "myapp-prod"
+  }
+}
 
